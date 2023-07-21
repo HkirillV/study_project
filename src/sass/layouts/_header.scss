@@ -1,0 +1,56 @@
+header {
+  display: flex;
+  height: 64px;
+  padding: 0 70px;
+  justify-content: space-between;
+  align-items: flex-start;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+}
+
+.header__menu {
+  display: flex;
+  align-items: flex-start;
+  gap: 30px;
+}
+
+.header__logo {
+  position: relative;
+}
+
+
+.header__menu-item {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.header__item {
+  padding: 20px 16px;
+  text-transform: capitalize;
+  text-shadow: 0 4px 4px  rgba(0, 0, 0, 0.25);
+  color: $color-black;
+
+  @include font($size: 2.0rem, $height: 2.4rem);
+}
+
+.header__item:hover {
+  border-bottom: 2px solid $color-border;
+}
+
+.header__custom-menu{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  cursor: pointer;
+}
+
+.header__menu-button {
+  padding: 8px 35px;
+  border-radius: 4px;
+  text-align: center;
+  cursor: pointer;
+  background-color: $color-menu-buttom;
+  color: $color-white;
+
+  @include font($size: 1.6rem, $height: 2.0rem);
+}
