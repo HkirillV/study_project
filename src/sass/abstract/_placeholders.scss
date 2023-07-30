@@ -1,0 +1,12 @@
+%standard_style {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+%advantages_style {
+  padding: 103px 85px;
+  background-color: rgba(131, 179, 211, 0.12);
+  flex-basis: 33%;
+}
