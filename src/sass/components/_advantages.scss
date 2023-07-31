@@ -3,30 +3,11 @@
   flex-wrap: wrap;
 }
 
-.advantages__city {
+.advantages__list {
   padding: 103px 85px;
   background-color: $color-background-city;
-  flex-basis: 33%;
+  flex-basis: 33.3%;
   @extend %standard_style;
-}
-
-.advantages__square {
-  padding: 103px 85px;
-  background-color: $color-background-square;
-  flex-basis: 33%;
-  @extend %standard_style;
-}
-
-.advantages__road {
-  padding: 103px 85px;
-  background-color: $color-background-road;
-  flex-basis: 33%;
-}
-
-.advantages__tourists {
-  padding: 103px 85px;
-  background-color: $color-background-tourists;
-  flex-basis: 33%;
 }
 
 .advantages__content {
@@ -64,11 +45,12 @@
 }
 
 .advantages__image-city {
-  flex-basis: 33%;
-  background: url("/src/img/photo-1.svg") lightgray 50% / cover no-repeat;
+  flex-basis: 66.6%;
+  background: url("/src/img/photo-1.svg") right 50% / cover no-repeat;
 }
 
 .advantages__image-bridge {
-  flex-basis: 33%;
-  background: url("/src/img/photo-2.svg") center / cover no-repeat;
+  flex-basis: 66.6%;
+  background: url("/src/img/photo-2.svg") left 50% / cover no-repeat;
+
 }
