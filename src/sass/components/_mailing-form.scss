@@ -1,0 +1,46 @@
+.mailing-form {
+  padding: 96px 258px 104px 258px;
+  gap: 10px;
+  background-image: url("/src/img/font-input.jpg");
+  background-position: top;
+  background-size: cover;
+
+  @extend %standard_style;
+}
+
+.mailing-form__title {
+  text-align: center;
+  color: $color-white;
+
+  @include font($size: 3.0rem, $height: 3.6rem)
+}
+
+.mailing-form__text {
+  text-align: center;
+  color: $color-white;
+  margin-bottom: 69px;
+
+  @include font($size: 2.2rem, $height: 2.6rem, $weight: 400)
+}
+
+.mailing-form__input {
+  display: flex;
+  padding: 12px 20px;
+  align-items: center;
+  gap: 260px;
+  flex: 1 0 0;
+  border-radius: 4px 0px 0px 4px;
+}
+
+.mailing-form__button {
+  display: inline-flex;
+  padding: 8px 50px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+form {
+  display: flex;
+  align-items: center;
+}

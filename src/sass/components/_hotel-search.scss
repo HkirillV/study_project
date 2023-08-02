@@ -1,8 +1,8 @@
 .hotel-search {
-  @extend %standard_style;
-
   padding: 96px 304px;
   gap: 10px;
+
+  @extend %standard_style;
 }
 
 .hotel-search__title {
