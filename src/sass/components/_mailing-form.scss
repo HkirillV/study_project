@@ -18,29 +18,41 @@
 .mailing-form__text {
   text-align: center;
   color: $color-white;
-  margin-bottom: 69px;
+  margin-bottom: 54px;
 
   @include font($size: 2.2rem, $height: 2.6rem, $weight: 400)
 }
 
 .mailing-form__input {
   display: flex;
-  padding: 12px 20px;
   align-items: center;
-  gap: 260px;
+  border: none;
+  height: 52px;
+  padding: 12px 20px;
   flex: 1 0 0;
-  border-radius: 4px 0px 0px 4px;
+  border-radius: 4px 0 0 4px;
+  background: $color-input;
+
+  @include font($size: 1.8rem, $height: 2.4rem, $weight: 400)
 }
 
 .mailing-form__button {
   display: inline-flex;
-  padding: 8px 50px;
   justify-content: center;
   align-items: center;
-  gap: 10px;
+  border: none;
+  cursor: pointer;
+  height: 52px;
+  padding: 8px 50px;
+  border-radius: 0 4px 4px 0;
+  color: $color-white;
+  background: $color-background-blue;
+
+  @include font($size: 2.0rem, $height: 3.6rem, $weight: 700)
 }
 
 form {
   display: flex;
+  width: 100%;
   align-items: center;
 }
