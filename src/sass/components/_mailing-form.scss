@@ -40,7 +40,7 @@ form {
   border-radius: 4px 0 0 4px;
   background: $color-input;
 
-  @include font($size: 1.8rem, $height: 2.4rem, $weight: 400)
+  @include font($size: 1.8rem, $height: 2.4rem, $weight: 400);
 }
 
 .mailing-form__button {
