@@ -1,3 +1,10 @@
+form {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
 .mailing-form {
   padding: 96px 258px 104px 258px;
   gap: 10px;
@@ -29,7 +36,7 @@
   border: none;
   height: 52px;
   padding: 12px 20px;
-  flex: 1 0 0;
+  width: 412px;
   border-radius: 4px 0 0 4px;
   background: $color-input;
 
@@ -49,10 +56,4 @@
   background: $color-background-blue;
 
   @include font($size: 2.0rem, $height: 3.6rem, $weight: 700)
-}
-
-form {
-  display: flex;
-  width: 100%;
-  align-items: center;
 }

@@ -84,6 +84,36 @@ header {
   line-height: 2rem;
 }
 
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 30px 30px 30px;
+}
+
+.footer__phone {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px 194px 5px 195px;
+  font-size: 4rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 4rem;
+}
+.footer__phone :hover {
+  color: blue;
+}
+
+.footer__icon-phone {
+  text-decoration: none;
+  color: #000;
+}
+
+.footer__icon {
+  cursor: pointer;
+}
+
 .about {
   height: 100%;
   background: url("/src/img/index-background.svg") center/cover no-repeat;
@@ -264,6 +294,13 @@ header {
   background: #756157;
 }
 
+form {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
 .mailing-form {
   padding: 96px 258px 104px 258px;
   gap: 10px;
@@ -297,7 +334,7 @@ header {
   border: none;
   height: 52px;
   padding: 12px 20px;
-  flex: 1 0 0;
+  width: 412px;
   border-radius: 4px 0 0 4px;
   background: #F2F2F2;
   font-size: 1.8rem;
@@ -321,12 +358,6 @@ header {
   font-style: normal;
   font-weight: 700;
   line-height: 3.6rem;
-}
-
-form {
-  display: flex;
-  width: 100%;
-  align-items: center;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -1,0 +1,27 @@
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 30px 30px 30px;
+}
+
+.footer__phone {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px 194px 5px 195px;
+
+  @include font($size: 4.0rem, $height: 4.0rem, $weight: 400);
+  :hover {
+    color: blue;
+  }
+}
+
+.footer__icon-phone {
+  text-decoration: none;
+  color: $color-black;
+}
+
+.footer__icon {
+  cursor: pointer;
+}
