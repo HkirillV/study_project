@@ -8,11 +8,10 @@
 %advantages_style {
   padding: 103px 85px;
   background: $color-background-blue;
-  flex-basis: 33.3%;
+  width: calc(100% / 3);
 }
 
 %header_style {
   display: flex;
   align-items: center;
-  cursor: pointer;
 }

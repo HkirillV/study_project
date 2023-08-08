@@ -35,7 +35,7 @@ form {
   align-items: center;
   border: none;
   height: 52px;
-  padding: 12px 20px;
+  padding: 0 20px 0 12px;
   width: 412px;
   border-radius: 4px 0 0 4px;
   background: $color-input;
@@ -48,9 +48,8 @@ form {
   justify-content: center;
   align-items: center;
   border: none;
-  cursor: pointer;
   height: 52px;
-  padding: 8px 50px;
+  padding: 0 50px 0 50px;
   border-radius: 0 4px 4px 0;
   color: $color-white;
   background: $color-background-blue;

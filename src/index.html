@@ -13,25 +13,23 @@
 <body>
 <header class="header">
     <nav class="header__menu">
-        <img class="header__logo" src="/src/icons/logo.svg" alt="логотип">
+        <a href="./index.html"><img class="header__logo" src="/src/icons/logo.svg" alt="логотип"></a>
         <ul class="header__menu-item">
-            <li class="header__item">Главная</li>
-            <li class="header__item">О Седоне</li>
-            <li class="header__item header__item-shadow"><a class="text" href="./hotels.html">Гостиницы</a></li>
+            <li class="header__item"><a href="./index.html">Главная</a></li>
+            <li class="header__item"><a href="">О Седоне</a></li>
+            <li class="header__item header__item-shadow"><a href="./hotels.html">Гостиницы</a>
         </ul>
     </nav>
     <div class="header__custom-menu">
-        <img src="/src/icons/search.png" alt="">
-        <img src="/src/icons/heart.png" alt="">
+        <button class="button__search"><img src="/src/icons/search.png" alt=""></button>
+        <button class="button__heart" type="button"><img src="/src/icons/heart.png" alt=""></button>
         <button class="header__menu-button" type="button">ХОЧУ СЮДА!</button>
     </div>
 </header>
 <main>
     <section class="about">
         <div class="about__block">
-            <img class="about__welcome" src="/src/img/welcome.svg" height="45" width="188" loading="lazy" alt="">
-            <img class="about__the" src="/src/img/the.svg" height="29" width="256" loading="lazy" alt="">
-            <img class="about__sedona" src="/src/img/sedona.svg" height="213" width="456" loading="lazy" alt="">
+            <img src="/src/icons/welcome.svg" height="352" width="458" loading="lazy" alt="">
         </div>
         <div class="about__divider">
             <img class="about__vector" src="/src/img/vector.svg" height="57" width="1200" loading="lazy" alt="">
@@ -43,40 +41,40 @@
         <p class="description__text">Рассмотрим причины, по которым Седона круче, чем Гранд-Каньон!</p>
     </section>
     <section class="advantages">
-        <div class="advantages__list ">
+        <div class="advantages__item">
             <div class="advantages__content">
-                <h3 class="advantages__title advantages__title_white">НАСТОЯЩИЙ <br> ГОРОДОК</h3>
+                <h2 class="advantages__title advantages__title_white">НАСТОЯЩИЙ <br> ГОРОДОК</h2>
                 <span class="advantages__border-black"></span>
                 <p class="advantages__text advantages__text_white">Седона — не аттракцион для туристов, там течёт своя
                     жизнь</p>
             </div>
         </div>
         <div class="advantages__image-city"></div>
-        <div class="advantages__list advantages__list-white">
+        <div class="advantages__item advantages__item-white">
             <div class="advantages__content">
-                <h3 class="advantages__title">НЕБОЛЬШАЯ <br> ПЛОЩАДЬ</h3>
+                <h2 class="advantages__title">НЕБОЛЬШАЯ <br> ПЛОЩАДЬ</h2>
                 <span class="advantages__border"></span>
                 <p class="advantages__text">Все достопримечательности находятся очень близко</p>
             </div>
         </div>
-        <div class="advantages__list advantages__list-grey">
+        <div class="advantages__item advantages__item-grey">
             <div class="advantages__content">
-                <h3 class="advantages__title">КРАСИВАЯ<br> ДОРОГА</h3>
+                <h2 class="advantages__title">КРАСИВАЯ<br> ДОРОГА</h2>
                 <span class="advantages__border"></span>
                 <p class="advantages__text">Ехать в Седону из Лас-Вегаса совсем не скучно!</p>
             </div>
         </div>
-        <div class="advantages__list advantages__list-white">
+        <div class="advantages__item advantages__item-white">
             <div class="advantages__content">
-                <h3 class="advantages__title">МАЛО <br> ТУРИСТОВ</h3>
+                <h2 class="advantages__title">МАЛО <br> ТУРИСТОВ</h2>
                 <span class="advantages__border"></span>
                 <p class="advantages__text">Большинство едет в Гранд Каньон и толпится там</p>
             </div>
         </div>
         <div class="advantages__image-bridge"></div>
-        <div class="advantages__list">
+        <div class="advantages__item">
             <div class="advantages__content">
-                <h3 class="advantages__title advantages__title_white">ТАМ ЕСТЬ <br> МОСТ ДЬЯВОЛА</h3>
+                <h2 class="advantages__title advantages__title_white">ТАМ ЕСТЬ <br> МОСТ ДЬЯВОЛА</h2>
                 <span class="advantages__border advantages__border_white"></span>
                 <p class="advantages__text advantages__text_white">Да, по нему можно пройти! Если вы осмелитесь,
                     разумеется</p>
@@ -88,36 +86,36 @@
         <p class="invitation__text">Опытный персонал и качественное обслуживание!</p>
     </section>
     <section class="advantages">
-        <div class="advantages__list advantages__list-grey">
+        <div class="advantages__item advantages__item-grey">
             <div class="advantages__content">
                 <img src="/src/icons/house-icon.svg" alt="">
-                <h3 class="advantages__title">НЕБОЛЬШАЯ <br> ПЛОЩАДЬ</h3>
+                <h2 class="advantages__title">НЕБОЛЬШАЯ <br> ПЛОЩАДЬ</h2>
                 <p class="advantages__text">Все достопримечательности находятся очень близко</p>
             </div>
         </div>
-        <div class="advantages__list advantages__list-white">
+        <div class="advantages__item advantages__item-white">
             <div class="advantages__content">
                 <img src="/src/icons/meal-icon.svg" alt="">
-                <h3 class="advantages__title">КРАСИВАЯ<br> ДОРОГА</h3>
+                <h2 class="advantages__title">КРАСИВАЯ<br> ДОРОГА</h2>
                 <p class="advantages__text">Ехать в Седону из Лас-Вегаса совсем не скучно!</p>
             </div>
         </div>
-        <div class="advantages__list advantages__list-grey">
+        <div class="advantages__item advantages__item-grey">
             <div class="advantages__content">
                 <img src="/src/icons/souvenirs-icon.svg" alt="">
-                <h3 class="advantages__title">МАЛО <br> ТУРИСТОВ</h3>
+                <h2 class="advantages__title">МАЛО <br> ТУРИСТОВ</h2>
                 <p class="advantages__text">Большинство едет в Гранд Каньон и толпится там</p>
             </div>
         </div>
     </section>
     <section class="hotel-search">
-        <h1 class="hotel-search__title">ЗАИНТЕРЕСОВАЛИСЬ?</h1>
+        <h2 class="hotel-search__title">ЗАИНТЕРЕСОВАЛИСЬ?</h2>
         <p class="hotel-search__text">Укажите предполагаемые даты поездки,<br> и мы покажем вам лучшие предложения
             гостиниц в Седоне</p>
         <button class="hotel-search__button" type="button">ПОИСК ГОСТИНИЦЫ В СЕДОНЕ</button>
     </section>
     <section class="mailing-form">
-        <h1 class="mailing-form__title">ПОДПИШИТЕСЬ НА РАССЫЛКУ</h1>
+        <h2 class="mailing-form__title">ПОДПИШИТЕСЬ НА РАССЫЛКУ</h2>
         <p class="mailing-form__text">Только полезная информация и никакого спама,<br> честное бойскаутское!</p>
         <form action="index.html" method="post">
             <input class="mailing-form__input" type="email" name="email" placeholder="Ваш e-mail">
@@ -132,7 +130,8 @@
     <span class="footer__phone">
         <a class="footer__icon-phone" href="tel:+79998887766">+7(999)888-77-66</a>
     </span>
-    <img class="footer__logo" src="/src/icons/Logo-footer.svg" height="34" width="115" loading="lazy" alt="">
+    <a href="./index.html"><img class="footer__logo" src="/src/icons/Logo-footer.svg" height="34" width="115"
+                                loading="lazy" alt=""></a>
 </div>
 
 

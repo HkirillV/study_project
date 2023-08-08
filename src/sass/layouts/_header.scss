@@ -47,9 +47,9 @@ header {
 
 .header__menu-button {
   text-align: center;
-  cursor: pointer;
   border: none;
-  padding: 8px 35px;
+  height: 36px;
+  padding: 0 35px 0 35px;
   border-radius: 4px;
   background-color: $color-menu-buttom;
   color: $color-white;

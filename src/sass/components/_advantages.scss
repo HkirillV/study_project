@@ -3,16 +3,16 @@
   flex-wrap: wrap;
 }
 
-.advantages__list {
+.advantages__item {
   @extend %advantages_style;
   @extend %standard_style;
 }
 
-.advantages__list-white {
+.advantages__item-white {
   background: $color-background-white;
 }
 
-.advantages__list-grey {
+.advantages__item-grey {
   background: $color-background-gray;
 }
 
@@ -60,12 +60,12 @@
 }
 
 .advantages__image-city {
-  flex-basis: 66.6%;
+  width: calc(100% / 1.5);
   background: url("/src/img/photo-1.svg") right 50% / cover no-repeat;
 }
 
 .advantages__image-bridge {
-  flex-basis: 66.6%;
+  width: calc(100% / 1.5);
   background: url("/src/img/photo-2.svg") left 50% / cover no-repeat;
 
 }
