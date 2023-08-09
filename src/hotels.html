@@ -15,9 +15,9 @@
     <nav class="header__menu">
         <img class="header__logo" src="/src/icons/logo.svg" alt="логотип">
         <ul class="header__menu-item">
-            <li class="header__item">Главная</li>
+            <li class="header__item"><a href="./index.html">Главная</a></li>
             <li class="header__item">О Седоне</li>
-            <li class="header__item header__item-shadow"><a class="text" href="/src/hotels.html">Гостиницы</a></li>
+            <li class="header__item header__item-shadow"><a href="./hotels.html">Гостиницы</a></li>
         </ul>
     </nav>
     <div class="header__custom-menu">
@@ -28,9 +28,55 @@
 </header>
 <section class="catalog">
     <div class="catalog__block">
-        <h1 class="catalog__head">Гостиницы Седоны</h1>
+        <div class="catalog__header">
+            <h1 class="catalog__heading">Гостиницы Седоны</h1>
+            <div class="catalog__nav-menu">
+                <img class="catalog__home" src="/src/icons/home.svg" height="15" width="13" loading="lazy" alt="">
+                <img class="catalog__breadcrumbs" src="/src/icons/breadcrumbs.svg" height="20" width="10" loading="lazy"
+                     alt="">
+                <p class="catalog__text">Гостиницы</p>
+            </div>
+        </div>
+        <div class="catalog-filter">
+            <div class="catalog-filter__infrastructure">
+                <legend class="catalog-filter__heading">Инфраструктура:</legend>
+                <div class="catalog-filter__item">
+                    <div class="catalog-filter__checkbox-block">
+                        <input class="catalog-filter__tick" type="checkbox" id="swimming-pool" name="swimming-pool"
+                               checked/>
+                        <label class="catalog-filter__checkbox-text" for="swimming-pool">Бассейн</label>
+                    </div>
+                    <div class="catalog-filter__checkbox-block">
+                        <input class="catalog-filter__tick" type="checkbox" id="parking" name="parking" checked/>
+                        <label class="catalog-filter__checkbox-text" for="parking">Парковка</label>
+                    </div>
+                    <div class="catalog-filter__checkbox-block">
+                        <input class="catalog-filter__tick" type="checkbox" id="Wi-Fi" name="Wi-Fi"/>
+                        <label class="catalog-filter__checkbox-text" for="Wi-Fi">Wi-Fi</label>
+                    </div>
+                </div>
+            </div>
+            <div class="catalog-filter__type-housing">
+                <legend class="catalog-filter__heading">Тип жилья:</legend>
+                <div class="catalog-filter__item">
+                    <div class="catalog-filter__checkbox-block">
+                        <input class="catalog-filter__tick" type="radio" id="hotels" name="filter" value="H" checked/>
+                        <label class="catalog-filter__checkbox-text" for="hotels">Гостиница</label>
+                    </div>
+                    <div class="catalog-filter__checkbox-block">
+                        <input class="catalog-filter__tick" type="radio" id="motel" name="filter" value="M"/>
+                        <label class="catalog-filter__checkbox-text" for="parking">Мотель</label>
+                    </div>
+                    <div class="catalog-filter__checkbox-block">
+                        <input class="catalog-filter__tick" type="radio" id="apartments" name="filter" value="A"/>
+                        <label class="catalog-filter__checkbox-text" for="apartments">Апартаменты</label>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 </section>
+
 
 </body>
 </html>

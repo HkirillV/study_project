@@ -8,6 +8,86 @@
   background: url("/src/img/catalog.jpg") center / cover no-repeat;
 
   &__block {
-    gap: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 40px;
+  }
+
+  &__heading {
+    color: $color-white;
+    @include font($size: 6.0rem, $height: 7.8rem);
+  }
+
+  &__nav-menu {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+  }
+
+  &__text {
+    color: $color-white;
+    @include font($size: 1.6rem, $height: 2.1rem, $weight: 400);
+  }
+
+}
+
+
+
+.catalog-filter {
+  display: flex;
+  align-items: flex-start;
+  gap: 70px;
+
+  &__infrastructure {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px;
+  }
+
+  &__item {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+  }
+
+  &__heading {
+    color: $color-white;
+    @include font($size: 2.0rem, $height: 2.4rem);
+  }
+
+  &__tick {
+    border-radius: 15px;
+    width: 20px;
+    height: 19px;
+  }
+
+  &__checkbox-block{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+  }
+
+  &__checkbox-text {
+    color: $color-white;
+    @include font($size: 1.8rem, $height: 2.3rem, $weight: 400);
   }
 }
+
+
+.catalog-filter__type-housing {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px;
+}
+
+
+
+
+
+
+
