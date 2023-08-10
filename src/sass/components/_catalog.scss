@@ -1,18 +1,9 @@
 .catalog {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
+  @extend %hotels-style;
   height: 412px;
   padding: 35px 70px;
   gap: 10px;
   background: url("/src/img/catalog.jpg") center / cover no-repeat;
-
-  &__block {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 40px;
-  }
 
   &__heading {
     color: $color-white;
@@ -34,6 +25,14 @@
 }
 
 
+.catalog__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
+}
+
+
 
 .catalog-filter {
   display: flex;
@@ -41,16 +40,12 @@
   gap: 70px;
 
   &__infrastructure {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
+    @extend %hotels-style;
     gap: 32px;
   }
 
   &__item {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
+    @extend %hotels-style;
     gap: 16px;
   }
 
@@ -75,15 +70,47 @@
     color: $color-white;
     @include font($size: 1.8rem, $height: 2.3rem, $weight: 400);
   }
-}
 
-
-.catalog-filter__type-housing {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
+  &__type-housing {
+    @extend %hotels-style;
     gap: 32px;
+  }
 }
+
+.catalog-price-block {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  gap: 70px;
+
+  &__cost {
+    @extend %hotels-style;
+    gap: 32px;
+  }
+
+  &__price {
+    display: flex;
+    align-items: flex-start;
+    gap: 2px;
+  }
+}
+
+.input-text {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: none;
+  height: 48px;
+  background-color: $color-input;
+  border-radius: 4px 0 0 4px;
+  width: 143px;
+  padding: 0 20px 0 20px;
+
+  &__border {
+    border-radius: 0 4px 4px 0;
+  }
+}
+
 
 
 
