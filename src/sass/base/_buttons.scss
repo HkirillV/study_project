@@ -5,3 +5,24 @@
   border: none;
   height: 64px;
 }
+
+.catalog-price__button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border: none;
+  gap: 10px;
+  height: 36px;
+  padding: 0 50px 0 50px;
+  border-radius: 4px;
+  color: $color-white;
+  background: $color-background-blue;
+
+  @include font($size: 1.6rem, $height: 2.0rem, $weight: 700)
+}
+
+.catalog-price__button_unique-style {
+  background: none;
+  @include font($size: 1.6rem, $height: 2.0rem, $weight: 700)
+}

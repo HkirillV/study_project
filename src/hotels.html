@@ -78,14 +78,24 @@
         <div class="catalog-price-block">
             <div class="catalog-price-block__cost">
                 <h3 class="catalog-filter__heading">Стоимость, ₽:</h3>
-                <div class="catalog-price-block__price">
-                    <div class="catalog-price-block__price-input">
-                        <input class="input-text" type="text" placeholder="от" value="">
+                <div class="catalog-filter__slider">
+                    <div class="catalog-price-block__price">
+                        <div class="catalog-price-block__price-input">
+                            <input class="input-text" type="number" placeholder="от" id="Number"
+                                   name="Number" min="1" max="100">
+                        </div>
+                        <div class="catalog-price-block__price-input">
+                            <input class="input-text input-text__border" type="number" placeholder="до" value="">
+                        </div>
                     </div>
                     <div class="catalog-price-block__price-input">
-                        <input class="input-text input-text__border" type="text" placeholder="до" value="">
+                        <img src="/src/img/Line%204.svg" alt="">
                     </div>
                 </div>
+            </div>
+            <div class="catalog-price__button-block">
+                <button class="catalog-price__button" type="button">ПРИМЕНИТЬ</button>
+                <button class="catalog-price__button catalog-price__button_unique-style" type="button">СБРОСИТЬ</button>
             </div>
         </div>
     </div>
