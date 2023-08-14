@@ -1,0 +1,115 @@
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: 50px 70px 60px 70px;
+  gap: 40px;
+
+  &__filter {
+    width: 100%;
+    @extend %content-style;
+  }
+
+  &__heading {
+    color: $color-black;
+    @include font($size: 3.0rem, $height: 3.6rem);
+  }
+
+  &__form {
+    display: flex;
+    align-items: flex-start;
+    gap: 70px;
+  }
+
+  &__select{
+    border-radius: 4px;
+    border: 2px solid $color-content-form;
+    width: 292px;
+    padding: 14px 20px;
+    @extend %content-style;
+  }
+
+  &__text {
+    color: $color-text;
+    @include font($size: 1.8rem, $height: 2.1rem, $weight: 400);
+  }
+
+  &__view {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 8px;
+  }
+}
+
+.catalog-products {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  align-self: stretch;
+  width: 100%;
+  gap: 20px;
+
+  @extend %hotels-style;
+
+  &__block-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    align-self: stretch;
+  }
+
+  &__item {
+    border-radius: 4px;
+    border: 1px solid $color-products-item;
+    height: 438px;
+    padding: 20px;
+    gap: 16px;
+
+    @extend %hotels-style;
+  }
+
+  &__block-title {
+    height: 28px;
+    flex-shrink: 0;
+  }
+
+  &__heading {
+    color: $color-black;
+    @include font($size: 2.4rem, $height: 2.8rem, $weight: 700);
+  }
+
+  &__cost {
+    width: 100%;
+    @extend %content-style;
+  }
+
+  &__text {
+    color: $color-text;
+    @include font($size: 1.8rem, $height: 2.1rem, $weight: 400);
+  }
+
+  &__block-button {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+
+  &__button {
+    text-align: center;
+    color: $color-white;
+    background: $color-menu-buttom;
+    border-radius: 4px;
+    width: 140px;
+    height: 36px;
+    padding: 0 20px 0 20px;
+    gap: 10px;
+    flex: 1 0 0;
+
+    @extend %catalog-button;
+  }
+
+  &__button-text {
+    @include font($size: 1.6rem, $height: 2.0rem, $weight: 400);
+  }
+}
