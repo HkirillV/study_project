@@ -7,11 +7,13 @@
 
   &__filter {
     width: 100%;
+
     @extend %content-style;
   }
 
   &__heading {
     color: $color-black;
+
     @include font($size: 3.0rem, $height: 3.6rem);
   }
 
@@ -26,11 +28,13 @@
     border: 2px solid $color-content-form;
     width: 292px;
     padding: 14px 20px;
+
     @extend %content-style;
   }
 
   &__text {
     color: $color-text;
+
     @include font($size: 1.8rem, $height: 2.1rem, $weight: 400);
   }
 
@@ -76,16 +80,19 @@
 
   &__heading {
     color: $color-black;
+
     @include font($size: 2.4rem, $height: 2.8rem, $weight: 700);
   }
 
   &__cost {
     width: 100%;
+
     @extend %content-style;
   }
 
   &__text {
     color: $color-text;
+
     @include font($size: 1.8rem, $height: 2.1rem, $weight: 400);
   }
 
@@ -97,6 +104,7 @@
 
   &__button {
     text-align: center;
+    border: none;
     color: $color-white;
     background: $color-menu-buttom;
     border-radius: 4px;
@@ -109,7 +117,86 @@
     @extend %catalog-button;
   }
 
+  &__button_blue {
+    background: $color-background-blue;
+  }
+
+  &__button_green {
+    background: $color-button-green;
+  }
+
   &__button-text {
     @include font($size: 1.6rem, $height: 2.0rem, $weight: 400);
+  }
+}
+
+.raiting {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+
+  &__star {
+    display: flex;
+    align-items: center;
+    width: 140px;
+    gap: 6px;
+    flex: 1 0 0;
+  }
+
+  &__score {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+    height: 37px;
+    width: 140px;
+    background: $color-input;
+  }
+
+  &__text {
+    text-align: center;
+    color: $color-black;
+
+    @include font($size: 1.6rem, $height: 2.0rem, $weight: 400);
+  }
+}
+
+.content__divider {
+  height: 1px;
+  width: 100%;
+  background: url("/src/icons/content_divider.svg") center / cover no-repeat;
+}
+
+.pagination {
+  display: flex;
+  align-items: center;
+
+  &__frame {
+    display: flex;
+    align-items: flex-start;
+    gap: 8px;
+  }
+
+  &__button {
+    text-align: center;
+    border: none;
+    border-radius: 4px;
+    color: $color-white;
+    background: $color-background-blue;
+    width: 60px;
+    height: 60px;
+
+    @include font($size: 2.0rem, $height: 3.6rem, $weight: 700);
+    @extend %catalog-button;
+  }
+
+  &__button_gray {
+    color: $color-black;
+    background: $color-input;
+  }
+
+  &__button_white {
+    color: $color-black;
+    background: $color-white;
   }
 }

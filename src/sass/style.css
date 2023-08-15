@@ -28,7 +28,7 @@
   align-items: center;
 }
 
-.catalog-products__button {
+.pagination__button, .catalog-products__button {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -622,6 +622,7 @@ form {
 }
 .catalog-products__button {
   text-align: center;
+  border: none;
   color: #FFFFFF;
   background: #756157;
   border-radius: 4px;
@@ -631,11 +632,94 @@ form {
   gap: 10px;
   flex: 1 0 0;
 }
+.catalog-products__button_blue {
+  background: #82B3D3;
+}
+.catalog-products__button_green {
+  background: #7DB54F;
+}
 .catalog-products__button-text {
   font-size: 1.6rem;
   font-style: normal;
   font-weight: 400;
   line-height: 2rem;
+}
+
+.raiting {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.raiting__star {
+  display: flex;
+  align-items: center;
+  width: 140px;
+  gap: 6px;
+  flex: 1 0 0;
+}
+.raiting__score {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+  height: 37px;
+  width: 140px;
+  background: #F2F2F2;
+}
+.raiting__text {
+  text-align: center;
+  color: #000;
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 2rem;
+}
+
+.content__divider {
+  height: 1px;
+  width: 100%;
+  background: url("/src/icons/content_divider.svg") center/cover no-repeat;
+}
+
+.pagination {
+  display: flex;
+  align-items: center;
+}
+.pagination__frame {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+}
+.pagination__button {
+  text-align: center;
+  border: none;
+  border-radius: 4px;
+  color: #FFFFFF;
+  background: #82B3D3;
+  width: 60px;
+  height: 60px;
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 3.6rem;
+}
+.pagination__button_gray {
+  color: #000;
+  background: #F2F2F2;
+}
+.pagination__button_white {
+  color: #000;
+  background: #FFFFFF;
+}
+
+.hotels-form {
+  background: #FFFFFF;
+}
+.hotels-form__title {
+  color: #000;
+}
+.hotels-form__text {
+  color: #333;
 }
 
 /*# sourceMappingURL=style.css.map */
