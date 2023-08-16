@@ -501,6 +501,19 @@ form {
   align-items: flex-start;
   gap: 2px;
 }
+.catalog-price-block__price-input {
+  position: relative;
+}
+.catalog-price-block__number {
+  position: absolute;
+  top: 12px;
+  left: 20px;
+  color: #000;
+  font-size: 1.8rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 2.4rem;
+}
 
 .input-text {
   display: flex;
@@ -511,7 +524,7 @@ form {
   background-color: #F2F2F2;
   border-radius: 4px 0 0 4px;
   width: 143px;
-  padding: 0 20px 0 20px;
+  padding-left: 106px;
 }
 .input-text__border {
   border-radius: 0 4px 4px 0;
