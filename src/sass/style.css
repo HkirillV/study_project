@@ -38,12 +38,26 @@
   box-sizing: border-box;
 }
 
+@font-face {
+  font-family: "PT Sans", sans-serif;
+  src: url("/src/fonts/PTSans-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "PT Sans", sans-serif;
+  src: url("/src/fonts/PTSans-Regular.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
 html {
   font-size: 10px;
 }
 
 body {
-  font-family: PT Sans, sans-serif;
+  font-family: "PT Sans", sans-serif;
 }
 
 a {
@@ -55,7 +69,7 @@ input {
   margin: 0;
 }
 
-.button__search, .button__heart {
+.header__action-button {
   display: flex;
   align-items: center;
   background-color: #FFFFFF;
@@ -93,14 +107,13 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-  height: 64px;
   padding: 0 70px;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
 }
 
 .header__menu {
   display: flex;
-  align-items: flex-start;
+  justify-content: center;
   gap: 30px;
 }
 
@@ -110,12 +123,15 @@ header {
 
 .header__item {
   text-transform: capitalize;
-  padding: 20px 16px;
   color: #000;
   font-size: 2rem;
   font-style: normal;
   font-weight: 700;
   line-height: 2.4rem;
+}
+
+.header__links {
+  padding: 20px 16px;
 }
 
 .header__item-shadow {
@@ -273,14 +289,9 @@ header {
   color: #FFFFFF;
 }
 
-.advantages__image-city {
-  width: 66.6666666667%;
-  background: url("/src/img/photo-1.svg") right 50%/cover no-repeat;
-}
-
-.advantages__image-bridge {
-  width: 66.6666666667%;
-  background: url("/src/img/photo-2.svg") left 50%/cover no-repeat;
+.advantages__image {
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .invitation {

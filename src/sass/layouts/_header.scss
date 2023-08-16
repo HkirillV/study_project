@@ -2,20 +2,18 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-  height: 64px;
   padding: 0 70px;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
 }
 
 .header__menu {
   display: flex;
-  align-items: flex-start;
+  justify-content: center;
   gap: 30px;
 }
 
 .header__logo {
   position: relative;
-
 }
 
 
@@ -25,10 +23,13 @@ header {
 
 .header__item {
   text-transform: capitalize;
-  padding: 20px 16px;
   color: $color-black;
 
   @include font($size: 2.0rem, $height: 2.4rem);
+}
+
+.header__links {
+  padding: 20px 16px;
 }
 
 .header__item-shadow {

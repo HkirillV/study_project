@@ -59,13 +59,7 @@
   color: $color-white;
 }
 
-.advantages__image-city {
-  width: calc(100% / 1.5);
-  background: url("/src/img/photo-1.svg") right 50% / cover no-repeat;
-}
-
-.advantages__image-bridge {
-  width: calc(100% / 1.5);
-  background: url("/src/img/photo-2.svg") left 50% / cover no-repeat;
-
+.advantages__image {
+  background-size: cover;
+  background-repeat: no-repeat;
 }
