@@ -15,7 +15,7 @@
 .invitation__text {
   text-align: center;
   color: $color-text;
-  margin-bottom: 69px;
+  padding-bottom: 69px;
 
   @include font($size: 2.2rem, $height: 2.6rem, $weight: 400)
 }

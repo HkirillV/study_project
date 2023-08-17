@@ -1,150 +1,159 @@
 <!doctype html>
 <html lang="ru">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="./css/reset.css">
-    <link rel="stylesheet" href="./sass/style.css">
-    <title>Sedona | Главная</title>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="./css/reset.css">
+  <link rel="stylesheet" href="./sass/style.css">
+  <title>Sedona | Главная</title>
 </head>
 <body>
 <header class="header">
-    <nav class="header__menu">
-        <a class="header__logo" href="./index.html">
-          <img class="header__logo" src="./icons/logo.svg" width="140" height="70" loading="lazy" alt="логотип">
-        </a>
-        <ul class="header__menu-item">
-            <li class="header__item">
-              <a class="header__links" href="./index.html">Главная</a>
-            </li>
-            <li class="header__item">
-              <a class="header__links" href="/">О Седоне</a>
-            </li>
-            <li class="header__item header__item-shadow">
-              <a class="header__links" href="./hotels.html">Гостиницы</a>
-            </li>
-        </ul>
-    </nav>
-    <div class="header__custom-menu">
-        <button class="header__action-button" type="button">
-          <img src="./icons/search.png" alt="">
-        </button>
-        <button class="header__action-button" type="button">
-          <img src="./icons/heart.png" alt="">
-        </button>
-        <button class="header__menu-button" type="button">ХОЧУ СЮДА!</button>
-    </div>
+  <nav class="header__menu">
+    <a class="header__logo" href="./index.html">
+      <img class="header__logo" src="./icons/logo.svg" width="140" height="70" loading="lazy" alt="логотип">
+    </a>
+    <ul class="header__menu-item">
+      <li class="header__item">
+        <a class="header__links" href="./index.html">Главная</a>
+      </li>
+      <li class="header__item">
+        <a class="header__links" href="/">О Седоне</a>
+      </li>
+      <li class="header__item header__item-shadow">
+        <a class="header__links" href="./hotels.html">Гостиницы</a>
+      </li>
+    </ul>
+  </nav>
+  <div class="header__custom-menu">
+    <button class="header__action-button" type="button">
+      <svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 19 19" fill="none">
+        <path d="M18.5 17.0083L14.8 13.3287C15.8 12.0359 16.5 10.3453 16.5 8.4558C16.5 4.08011 12.9 0.5 8.5 0.5C4.1 0.5 0.5 4.17956 0.5 8.55525C0.5 12.9309 4.1 16.511 8.5 16.511C10.3 16.511 12 15.9144 13.4 14.8204L17.1 18.5L18.5 17.0083ZM8.5 14.5221C5.2 14.5221 2.5 11.837 2.5 8.55525C2.5 5.27348 5.2 2.5884 8.5 2.5884C11.8 2.5884 14.5 5.27348 14.5 8.55525C14.5 11.837 11.8 14.5221 8.5 14.5221Z"
+              fill="black"/>
+      </svg>
+    </button>
+    <button class="header__action-button" type="button">
+      <span class="header__figure">12</span>
+      <svg xmlns="http://www.w3.org/2000/svg" width="18" height="17" viewBox="0 0 18 17" fill="none">
+        <path d="M8.9 17C8.6 17 8.3 16.9 8.1 16.6C2.7 10.5 1.4 9.1 1.1 8.7C0.4 7.8 0 6.6 0 5.4C0 2.4 2.4 0 5.5 0C6.8 0 8 0.5 9 1.3C10 0.5 11.3 0 12.5 0C15.5 0 18 2.4 18 5.4C18 6.7 17.5 7.9 16.7 8.8L9.7 16.7C9.5 16.9 9.3 17 8.9 17ZM2.9 7.5C3.2 7.9 6.4 11.5 9 14.4L15.2 7.4C15.7 6.9 15.9 6.2 15.9 5.4C15.9 3.6 14.4 2.1 12.6 2.1C11.6 2.1 10.6 2.6 9.9 3.4C9.6 3.7 9.3 3.8 9 3.8C8.7 3.8 8.4 3.6 8.2 3.4C7.5 2.6 6.5 2.1 5.5 2.1C3.7 2.1 2.2 3.6 2.2 5.4C2.1 6.3 2.5 7 2.9 7.5C2.8 7.5 2.8 7.5 2.9 7.5Z"
+              fill="black"/>
+      </svg>
+    </button>
+    <button class="button" type="button">ХОЧУ СЮДА!</button>
+  </div>
 </header>
 <main>
-    <section class="about">
-        <div class="about__block">
-            <img src="./icons/welcome.svg" height="352" width="458" loading="lazy" alt="">
-        </div>
-        <div class="about__divider">
-            <img class="about__vector" src="./img/vector.svg" height="57" width="1200" loading="lazy" alt="">
-        </div>
-    </section>
-    <section class="description">
-        <h1 class="description__title">СЕДОНА — НЕБОЛЬШОЙ ГОРОДОК В АРИЗОНЕ,<br>
-            ЗАСЛУЖИВАЮЩИЙ БОЛЬШЕГО!</h1>
-        <p class="description__text">Рассмотрим причины, по которым Седона круче, чем Гранд-Каньон!</p>
-    </section>
-    <section class="advantages">
-        <div class="advantages__item">
-            <div class="advantages__content">
-                <h2 class="advantages__title advantages__title_white">НАСТОЯЩИЙ <br> ГОРОДОК</h2>
-                <hr class="advantages__border-black"></hr>
-                <p class="advantages__text advantages__text_white">Седона — не аттракцион для туристов, там течёт своя
-                    жизнь</p>
-            </div>
-        </div>
-        <img class="advantages__image" src="./img/photo-1.svg" width="800" height="385" loading="lazy" alt="">
-        <div class="advantages__item advantages__item-white">
-            <div class="advantages__content">
-                <h2 class="advantages__title">НЕБОЛЬШАЯ <br> ПЛОЩАДЬ</h2>
-                <hr class="advantages__border"></hr>
-                <p class="advantages__text">Все достопримечательности находятся очень близко</p>
-            </div>
-        </div>
-        <div class="advantages__item advantages__item-grey">
-            <div class="advantages__content">
-                <h2 class="advantages__title">КРАСИВАЯ<br> ДОРОГА</h2>
-                <hr class="advantages__border"></hr>
-                <p class="advantages__text">Ехать в Седону из Лас-Вегаса совсем не скучно!</p>
-            </div>
-        </div>
-        <div class="advantages__item advantages__item-white">
-            <div class="advantages__content">
-                <h2 class="advantages__title">МАЛО <br> ТУРИСТОВ</h2>
-                <hr class="advantages__border"></hr>
-                <p class="advantages__text">Большинство едет в Гранд Каньон и толпится там</p>
-            </div>
-        </div>
-      <img class="advantages__image" src="./img/photo-2.svg" width="800" height="385" loading="lazy" alt="">
-        <div class="advantages__item">
-            <div class="advantages__content">
-                <h2 class="advantages__title advantages__title_white">ТАМ ЕСТЬ <br> МОСТ ДЬЯВОЛА</h2>
-                <hr class="advantages__border advantages__border_white"></hr>
-                <p class="advantages__text advantages__text_white">Да, по нему можно пройти! Если вы осмелитесь,
-                    разумеется</p>
-            </div>
-        </div>
-    </section>
-    <section class="invitation">
-        <h2 class="invitation__title">Приезжайте в Седону отдохнуть <br> в комфорте и уюте!</h2>
-        <p class="invitation__text">Опытный персонал и качественное обслуживание!</p>
-    </section>
-    <section class="advantages">
-        <div class="advantages__item advantages__item-grey">
-            <div class="advantages__content">
-                <img src="./icons/house-icon.svg" width="77" height="72" loading="lazy" alt="">
-                <h2 class="advantages__title">НЕБОЛЬШАЯ <br> ПЛОЩАДЬ</h2>
-                <p class="advantages__text">Все достопримечательности находятся очень близко</p>
-            </div>
-        </div>
-        <div class="advantages__item advantages__item-white">
-            <div class="advantages__content">
-                <img src="./icons/meal-icon.svg" width="76" height="72" loading="lazy" alt="">
-                <h2 class="advantages__title">КРАСИВАЯ<br> ДОРОГА</h2>
-                <p class="advantages__text">Ехать в Седону из Лас-Вегаса совсем не скучно!</p>
-            </div>
-        </div>
-        <div class="advantages__item advantages__item-grey">
-            <div class="advantages__content">
-                <img src="./icons/souvenirs-icon.svg" width="76" height="76" loading="lazy" alt="">
-                <h2 class="advantages__title">МАЛО <br> ТУРИСТОВ</h2>
-                <p class="advantages__text">Большинство едет в Гранд Каньон и толпится там</p>
-            </div>
-        </div>
-    </section>
-    <section class="hotel-search">
-        <h2 class="hotel-search__title">ЗАИНТЕРЕСОВАЛИСЬ?</h2>
-        <p class="hotel-search__text">Укажите предполагаемые даты поездки,<br> и мы покажем вам лучшие предложения
-            гостиниц в Седоне</p>
-        <button class="hotel-search__button" type="button">ПОИСК ГОСТИНИЦЫ В СЕДОНЕ</button>
-    </section>
-    <section class="mailing-form">
-        <h2 class="mailing-form__title">ПОДПИШИТЕСЬ НА РАССЫЛКУ</h2>
-        <p class="mailing-form__text">Только полезная информация и никакого спама,<br> честное бойскаутское!</p>
-        <form action="index.html" method="post">
-            <input class="mailing-form__input" type="email" name="email" placeholder="Ваш e-mail">
-            <button class="mailing-form__button" type="submit">ПОДПИСАТЬСЯ</button>
-        </form>
-    </section>
+  <section class="about">
+    <div class="about__block">
+      <img src="./icons/welcome.svg" height="352" width="458" loading="lazy" alt="">
+    </div>
+    <div class="about__divider">
+      <img class="about__vector" src="./img/vector.svg" height="57" width="1200" loading="lazy" alt="">
+    </div>
+  </section>
+  <section class="description">
+    <h1 class="description__title">СЕДОНА — НЕБОЛЬШОЙ ГОРОДОК В АРИЗОНЕ,<br>
+      ЗАСЛУЖИВАЮЩИЙ БОЛЬШЕГО!</h1>
+    <p class="description__text">Рассмотрим причины, по которым Седона круче, чем Гранд-Каньон!</p>
+  </section>
+  <section class="advantages">
+    <div class="advantages__item">
+      <div class="advantages__content">
+        <h2 class="advantages__title advantages__title_white">НАСТОЯЩИЙ <br> ГОРОДОК</h2>
+        <hr class="advantages__border-black"></hr>
+        <p class="advantages__text advantages__text_white">Седона — не аттракцион для туристов, там течёт своя
+          жизнь</p>
+      </div>
+    </div>
+    <img class="advantages__image" src="./img/photo-1.svg" width="800" height="385" loading="lazy" alt="">
+    <div class="advantages__item advantages__item-white">
+      <div class="advantages__content">
+        <h2 class="advantages__title">НЕБОЛЬШАЯ <br> ПЛОЩАДЬ</h2>
+        <hr class="advantages__border"></hr>
+        <p class="advantages__text">Все достопримечательности находятся очень близко</p>
+      </div>
+    </div>
+    <div class="advantages__item advantages__item-grey">
+      <div class="advantages__content">
+        <h2 class="advantages__title">КРАСИВАЯ<br> ДОРОГА</h2>
+        <hr class="advantages__border"></hr>
+        <p class="advantages__text">Ехать в Седону из Лас-Вегаса совсем не скучно!</p>
+      </div>
+    </div>
+    <div class="advantages__item advantages__item-white">
+      <div class="advantages__content">
+        <h2 class="advantages__title">МАЛО <br> ТУРИСТОВ</h2>
+        <hr class="advantages__border"></hr>
+        <p class="advantages__text">Большинство едет в Гранд Каньон и толпится там</p>
+      </div>
+    </div>
+    <img class="advantages__image" src="./img/photo-2.svg" width="800" height="385" loading="lazy" alt="">
+    <div class="advantages__item">
+      <div class="advantages__content">
+        <h2 class="advantages__title advantages__title_white">ТАМ ЕСТЬ <br> МОСТ ДЬЯВОЛА</h2>
+        <hr class="advantages__border advantages__border_white"></hr>
+        <p class="advantages__text advantages__text_white">Да, по нему можно пройти! Если вы осмелитесь,
+          разумеется</p>
+      </div>
+    </div>
+  </section>
+  <section class="invitation">
+    <h2 class="invitation__title">Приезжайте в Седону отдохнуть <br> в комфорте и уюте!</h2>
+    <p class="invitation__text">Опытный персонал и качественное обслуживание!</p>
+  </section>
+  <section class="advantages">
+    <div class="advantages__item advantages__item-grey">
+      <div class="advantages__content">
+        <img src="./icons/house-icon.svg" width="77" height="72" loading="lazy" alt="">
+        <h2 class="advantages__title">НЕБОЛЬШАЯ <br> ПЛОЩАДЬ</h2>
+        <p class="advantages__text">Все достопримечательности находятся очень близко</p>
+      </div>
+    </div>
+    <div class="advantages__item advantages__item-white">
+      <div class="advantages__content">
+        <img src="./icons/meal-icon.svg" width="76" height="72" loading="lazy" alt="">
+        <h2 class="advantages__title">КРАСИВАЯ<br> ДОРОГА</h2>
+        <p class="advantages__text">Ехать в Седону из Лас-Вегаса совсем не скучно!</p>
+      </div>
+    </div>
+    <div class="advantages__item advantages__item-grey">
+      <div class="advantages__content">
+        <img src="./icons/souvenirs-icon.svg" width="76" height="76" loading="lazy" alt="">
+        <h2 class="advantages__title">МАЛО <br> ТУРИСТОВ</h2>
+        <p class="advantages__text">Большинство едет в Гранд Каньон и толпится там</p>
+      </div>
+    </div>
+  </section>
+  <section class="hotel-search">
+    <div class="wrapper">
+      <h2 class="hotel-search__title">ЗАИНТЕРЕСОВАЛИСЬ?</h2>
+      <p class="hotel-search__text">Укажите предполагаемые даты поездки,<br> и мы покажем вам лучшие предложения
+        гостиниц в Седоне</p>
+      <button class="button button__search" type="button">ПОИСК ГОСТИНИЦЫ В СЕДОНЕ</button>
+    </div>
+  </section>
+  <section class="mailing-form">
+    <h2 class="mailing-form__title">ПОДПИШИТЕСЬ НА РАССЫЛКУ</h2>
+    <p class="mailing-form__text">Только полезная информация и никакого спама,<br> честное бойскаутское!</p>
+    <form action="index.html" method="post">
+      <input class="mailing-form__input" type="email" name="email" placeholder="Ваш e-mail">
+      <button class="mailing-form__button" type="submit">ПОДПИСАТЬСЯ</button>
+    </form>
+  </section>
 </main>
 <footer class="footer">
-    <img class="footer__icon" src="./icons/social-vk.svg" height="41" width="48" loading="lazy" alt="">
-    <img class="footer__icon" src="./icons/social-telegram.svg" height="41" width="48" loading="lazy" alt="">
-    <img class="footer__icon" src="./icons/social-youtube.svg" height="41" width="48" loading="lazy" alt="">
-    <span class="footer__phone">
+  <img class="footer__icon" src="./icons/social-vk.svg" height="41" width="48" loading="lazy" alt="">
+  <img class="footer__icon" src="./icons/social-telegram.svg" height="41" width="48" loading="lazy" alt="">
+  <img class="footer__icon" src="./icons/social-youtube.svg" height="41" width="48" loading="lazy" alt="">
+  <span class="footer__phone">
         <a class="footer__icon-phone" href="tel:+79998887766">+7(999)888-77-66</a>
     </span>
-    <a class="footer__logo" href="./index.html">
-      <img class="footer__logo" src="./icons/Logo-footer.svg" height="34" width="115"
-                                loading="lazy" alt="">
-    </a>
+  <a class="footer__logo" href="./index.html">
+    <img class="footer__logo" src="./icons/Logo-footer.svg" height="34" width="115"
+         loading="lazy" alt="">
+  </a>
 </footer>
 </body>
 </html>

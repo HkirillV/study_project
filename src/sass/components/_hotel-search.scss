@@ -1,6 +1,9 @@
 .hotel-search {
-  padding: 96px 304px;
-  gap: 10px;
+  padding: 96px 0 94px 0;
+}
+
+.wrapper {
+  max-width: 1200px;
 
   @extend %standard_style;
 }
@@ -20,14 +23,10 @@
   @include font($size: 2.2rem, $height: 2.6rem, $weight: 400)
 }
 
-.hotel-search__button {
-  display: inline-flex;
-  justify-content: center;
+.button__search {
+  display: flex;
   align-items: center;
+  justify-content: center;
   height: 52px;
-  border-radius: 4px;
   padding: 0 50px 0 50px;
-  gap: 10px;
-  color: $color-white;
-  background: $color-menu-buttom;
 }

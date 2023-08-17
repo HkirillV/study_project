@@ -14,6 +14,7 @@ header {
 
 .header__logo {
   position: relative;
+  margin-bottom: -5px;
 }
 
 
@@ -40,15 +41,31 @@ header {
   border-bottom: 2px solid $color-border;
 }
 
-.header__custom-menu{
+.header__custom-menu {
   gap: 20px;
 
   @extend %header_style;
+
 }
 
-.header__menu-button {
+.header__figure {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  height: 20px;
+  width: 20px;
+  background: $color-button-green;
+  color: $color-white;
+  border-radius: 10px;
+  right: -4px;
+  top: 11px;
+
+  @include font($size: 1.0rem, $height: 1.0rem, $weight: 400);
+}
+
+.button {
   text-align: center;
-  border: none;
   height: 36px;
   padding: 0 35px 0 35px;
   border-radius: 4px;
