@@ -31,7 +31,6 @@
 
 }
 
-
 .catalog__container {
   display: flex;
   justify-content: space-between;
@@ -58,28 +57,6 @@
   &__heading {
     color: $color-white;
     @include font($size: 2.0rem, $height: 2.4rem);
-  }
-
-  &__tick {
-    border-radius: 15px;
-    width: 20px;
-    height: 19px;
-  }
-
-  &__checkbox-block {
-    display: flex;
-    align-items: center;
-    gap: 16px;
-  }
-
-  &__checkbox-text {
-    color: $color-white;
-    @include font($size: 1.8rem, $height: 2.3rem, $weight: 400);
-  }
-
-  &__type-housing {
-    @extend %hotels-style;
-    gap: 32px;
   }
 }
 
